@@ -235,7 +235,7 @@
         }      
         else if(output.innerHTML==2)
         {
-            slider_values[0] = 0.5;
+            slider_values[0] = 0.4;
         }
         else if(output.innerHTML==3)
         {
