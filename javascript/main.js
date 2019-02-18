@@ -1,7 +1,7 @@
     // Variables
     var list_gdp = []
     var list_normalized_val = [[],[],[],[],[],[]]
-    var slider_values = [0.5,0.5,0.5,0.5,0.5]
+    var slider_values = [0.4,0.4,0.4,0.4,0.4]
     var sum_normalized_val = [] 
     var list_crime = []
     var list_residential = []
@@ -231,7 +231,7 @@
         removeMarker();
         if (output.innerHTML==1)
         {
-            slider_values[0] = 0.2;
+            slider_values[0] = 0.1;
         }      
         else if(output.innerHTML==2)
         {
@@ -239,7 +239,7 @@
         }
         else if(output.innerHTML==3)
         {
-            slider_values[0] = 0.8;
+            slider_values[0] = 0.7;
         }
         sum_slider_val = getSumSliderValues();
         orderIndex = [1,2,3,4,5,6]
@@ -259,15 +259,15 @@
         removeMarker();
         if (output.innerHTML==1)
         {
-            slider_values[1] = 0.2;
+            slider_values[1] = 0.1;
         }      
         else if(output.innerHTML==2)
         {
-            slider_values[1] = 0.5;
+            slider_values[1] = 0.4;
         }
         else if(output.innerHTML==3)
         {
-            slider_values[1] = 0.8;
+            slider_values[1] = 0.7;
         }
         sum_slider_val = getSumSliderValues();
         orderIndex = [1,2,3,4,5,6]
@@ -287,15 +287,15 @@
         removeMarker();
         if (output.innerHTML==1)
         {
-            slider_values[2] = 0.2;
+            slider_values[2] = 0.1;
         }      
         else if(output.innerHTML==2)
         {
-            slider_values[2] = 0.5;
+            slider_values[2] = 0.4;
         }
         else if(output.innerHTML==3)
         {
-            slider_values[2] = 0.8;
+            slider_values[2] = 0.7;
         }
         sum_slider_val = getSumSliderValues();
         orderIndex = [1,2,3,4,5,6]
@@ -315,15 +315,15 @@
         removeMarker();
         if (output.innerHTML==1)
         {
-            slider_values[3] = 0.2;
+            slider_values[3] = 0.1;
         }      
         else if(output.innerHTML==2)
         {
-            slider_values[3] = 0.5;
+            slider_values[3] = 0.4;
         }
         else if(output.innerHTML==3)
         {
-            slider_values[3] = 0.8;
+            slider_values[3] = 0.7;
         }
         sum_slider_val = getSumSliderValues();
         orderIndex = [1,2,3,4,5,6]
@@ -343,15 +343,15 @@
         removeMarker();
         if (output.innerHTML==1)
         {
-            slider_values[4] = 0.2;
+            slider_values[4] = 0.1;
         }      
         else if(output.innerHTML==2)
         {
-            slider_values[4] = 0.5;
+            slider_values[4] = 0.4;
         }
         else if(output.innerHTML==3)
         {
-            slider_values[4] = 0.8;
+            slider_values[4] = 0.7;
         }
         sum_slider_val = getSumSliderValues();
         orderIndex = [1,2,3,4,5,6]
