@@ -42,6 +42,16 @@ h2 {
   text-align: center;
   margin-top: 10px;
 }
+
+h4 {
+  margin-bottom: 7%;
+}
+
+h5 {
+  margin-top: 25px;
+  line-height: 0%;
+}
+
 div#mapid {
   border-radius: 20px;
   border-style: solid;
@@ -58,7 +68,7 @@ div#displaybox {
   margin-left: 30px;
   margin-right: 10px;
   margin-top: 1%;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   padding-top: 2%;
 }
 div#displayfunctions {
@@ -76,12 +86,13 @@ div#displayfunctions {
   margin-top: 5px;
 }
 #slidervalue {
-  text-align: center;
   margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 14px;
 }
 .slidecontainer {
   margin-top: 10%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   width: 100%;
 }
 .slider {
@@ -93,7 +104,7 @@ div#displayfunctions {
   outline: inherit;
   opacity: 1;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 .container-fluid {
   margin-top: 2%;

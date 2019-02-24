@@ -37,21 +37,33 @@
           <form>
             <!-- range slider for each factor used -->
 		        <div class="slidecontainer">
-              <h5>GDP</h5>
+              <h4>What is important?</h4>
+              
+              <h5 style="margin-top: 30px">GDP</h5>
               <input type="range" min="1" max="3" value="2" class="slider" id="gdpRange">
               <p hidden><span id="gdpV"></span></p></br>
+              <pre  id="slidervalue">Low                                 High</pre>
+
               <h5>Happiness Score</h5>
               <input type="range" min="1" max="3" value="2" class="slider" id="happinessRange">
-              <p hidden><span id="happinessV"></span></p></br>
+              <p hidden>aaa<span id="happinessV"></span></p></br>
+              <pre  id="slidervalue">Low                                 High</pre>
+
+
               <h5>Residential Price</h5>
               <input type="range" min="1" max="3" value="2" class="slider" id="rPriceRange">
-              <p hidden><span id="rPricerimeV"></span></p></br>
+              <p hidden>bbbb<span id="rPricerimeV"></span></p></br>
+                            <pre  id="slidervalue">Low                                 High</pre>
+
               <h5>Ambient Air Pollution</h5>
               <input type="range" min="1" max="3" value="2" class="slider" id="airPollutionRange">
-              <p hidden><span id="airPollutionV"></span></p></br>
+              <p hidden>ccc<span id="airPollutionV"></span></p></br>
+                            <pre  id="slidervalue">Low                                 High</pre>
+
               <h5>Crime statistics</h5>
               <input type="range" min="1" max="3" value="2" class="slider" id="crimeRange">
-              <p hidden><span id="rPricerimeV"></span></p></br>
+              <p hidden>ddd<span id="rPricerimeV"></span></p></br>
+                            <pre  id="slidervalue">Low                                 High</pre>
             </div>
           </form>
         </div>
@@ -59,7 +71,7 @@
         <div class="col-6" id="mapid"></div>
         <!-- Display Countries in sorted according to user choice -->
         <div class="col" id="displaybox">
-          <h5>Country order according to your choice: </h5>
+          <h4>Country order according to your choice: </h4>
           <ol style="padding-left: 17px; font-size: 15pt">
             <li id="first"></li>
             <li id="second"></li>
